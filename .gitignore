@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+work_all/
+*.pth
+results_example/fig1g_paired_frc/*.csv
+results_example/fig1g_paired_frc/*.png

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "RL-SIM: Physics-guided reinforcement learning for structured illumination microscopy"
+authors:
+  - family-names: "Wu"
+    given-names: "Junli"
+  - family-names: "Yan"
+    given-names: "Qiurong"
+  - family-names: "Huang"
+    given-names: "Siying"
+  - family-names: "Zhang"
+    given-names: "Haoran"
+  - family-names: "Yin"
+    given-names: "Junyuan"
+  - family-names: "Luo"
+    given-names: "Xiaolong"
+  - family-names: "Wen"
+    given-names: "Zhiqiang"
+repository-code: "https://github.com/<YOUR-ACCOUNT>/RL-SIM"
+abstract: >-
+  Code and minimal reproducibility package for the manuscript
+  "Physics-guided reinforcement learning for structured illumination microscopy".
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-03-12"
+preferred-citation:
+  type: article
+  title: "Physics-guided reinforcement learning for structured illumination microscopy"
+  authors:
+    - family-names: "Wu"
+      given-names: "Junli"
+    - family-names: "Yan"
+      given-names: "Qiurong"
+  journal: "Communications Physics"
+  year: 2026
+  note: "Update DOI after publication."

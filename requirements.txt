@@ -1,0 +1,5 @@
+numpy>=1.23
+tifffile>=2023.8.30
+matplotlib>=3.7
+openpyxl>=3.1
+torch>=2.1
