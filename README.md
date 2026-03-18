@@ -23,7 +23,7 @@ RL-SIM/
 ├─ checkpoints/
 ├─ minimal_example_data/
 └─ results_example/
-   └─ fig1g_paired_frc/
+   └─ supp_fig_s3_frc_vs_gt/
       ├─ baseline_paired_frc_comparison.py
       └─ supp_table_s5_frc_vs_gt_subset.xlsx
 ```
