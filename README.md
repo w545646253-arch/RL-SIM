@@ -4,10 +4,11 @@ This package is a lightweight **reviewer reproducibility package** for the manus
 **Physics-guided reinforcement learning for structured illumination microscopy**.
 
 It is designed to support:
-- inference with pretrained checkpoints,
-- reproduction of the frame-number comparison,
-- reproduction of the paired-FRC-based Fig. 1(g) summary,
-- generation of representative paired-FRC curves for the Supplementary Information.
+
+- inference with pretrained checkpoints;
+- reproduction of the frame-number comparison and the paired-FRC-based Fig. 3(g) summary in the revised manuscript;
+- generation of the GT-referenced FRC-style cross-method summary used for Supplementary Fig. S3 and Supplementary Table S5;
+- export of source-data spreadsheets for redrawing the revised Supplementary Fig. S3 curves and boxplots.
 
 ## Directory structure
 
@@ -22,6 +23,9 @@ RL-SIM/
 ├─ checkpoints/
 ├─ minimal_example_data/
 └─ results_example/
+   └─ fig1g_paired_frc/
+      ├─ baseline_paired_frc_comparison.py
+      └─ supp_table_s5_frc_vs_gt_subset.xlsx
 ```
 
 ## What must be added locally before use
@@ -41,6 +45,16 @@ Expected minimal example data:
 - 2 microtubule images
 - 2 CCP images
 - 2 ER images
+
+### `results_example/supp_fig_s3_frc_vs_gt`
+
+This folder contains the source-data workbook and the companion script used to generate the revised GT-referenced FRC-style cross-method summary for Supplementary Fig. S3 and Supplementary Table S5.
+
+- `baseline_paired_frc_comparison.py` generates the GT-referenced FRC-style curves, per-image resolution statistics, and the source-data workbook used for the revised supplementary frequency-domain summary.
+- `supp_table_s5_frc_vs_gt_subset.xlsx` contains the wide-format curve data, per-image statistics, and redraw-ready source data for Supplementary Fig. S3.
+
+The folder name `supp_fig_s3_frc_vs_gt` is retained for continuity with earlier reviewer-package versions. In the revised manuscript, however, the contents of this folder correspond to the GT-referenced FRC-style baseline summary used for Supplementary Fig. S3 / Table S5 rather than only the earlier paired-FRC example.
+
 
 ## Reproducing Fig. 1(g)
 
