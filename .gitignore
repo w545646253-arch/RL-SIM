@@ -7,3 +7,7 @@ work_all/
 *.pth
 results_example/fig1g_paired_frc/*.csv
 results_example/fig1g_paired_frc/*.png
+!checkpoints/
+!checkpoints/APCRL_Zoff_K3_best.pth
+!checkpoints/APCRL_Zoff_K6_best.pth
+!checkpoints/APCRL_Zoff_K9_best.pth
